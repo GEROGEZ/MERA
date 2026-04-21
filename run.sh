@@ -2,13 +2,9 @@ source /usr/local/Ascend/ascend-toolkit/set_env.sh
 
 source /usr/local/Ascend/nnal/atb/set_env.sh
 
-# fuser -k /dev/davinci_manager  > log2 2>&1 &
 
-# 数据分割
-# construct_result=`CUDA_VISIBLE_DEVICES=4,5,6,7 python data_split.py --dap "./data/Beta结项验收数据集0401shit (2).xlsx"`
-
-train_path="./data/train_dataset_20260408_14.xlsx"
-test_path="./data/test_dataset_20260408_14.xlsx"
+train_path="xx.xlsx"
+test_path="yy.xlsx"
 
 echo 训练集： $train_path
 echo 测试集： $test_path
